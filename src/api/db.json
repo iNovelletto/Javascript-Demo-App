@@ -1,1 +1,22 @@
-{"users":[{"id":12037410,"firstName":"Zoey","lastName":"Konopelski","email":"Alexandre_Rodriguez25@hotmail.com"},{"id":72467894,"firstName":"Bryana","lastName":"Weimann","email":"Lacy95@hotmail.com"},{"id":72957667,"firstName":"Ervin","lastName":"Medhurst","email":"Lexi2@gmail.com"}]}
+{
+  "users": [
+    {
+      "id": 28962362,
+      "firstName": "Addie",
+      "lastName": "Champlin",
+      "email": "Kade_Abshire30@hotmail.com"
+    },
+    {
+      "id": 93523396,
+      "firstName": "Breana",
+      "lastName": "Littel",
+      "email": "Cody97@hotmail.com"
+    },
+    {
+      "id": 57626858,
+      "firstName": "Nick",
+      "lastName": "Koss",
+      "email": "Maryam_Krajcik@gmail.com"
+    }
+  ]
+}

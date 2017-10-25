@@ -11,6 +11,10 @@ export function deleteUser(id){
   return del(`users/${id}`);
 }
 
+export function postUser(user){
+  return post('users', user);
+}
+
 function get(url){
   return fetch(baseUrl + url).then(onSuccess, onError);
 }
@@ -19,6 +23,19 @@ function get(url){
 function del(url){
   const request = new Request(baseUrl + url, {
     method: 'DELETE'
+  });
+
+  return fetch(request).then(onSuccess, onError);
+}
+
+function post(url, jsonObj){
+  const request = new Request(baseUrl + url, {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(jsonObj)
   });
 
   return fetch(request).then(onSuccess, onError);

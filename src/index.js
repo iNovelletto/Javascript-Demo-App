@@ -1,3 +1,4 @@
+import './index.css';
 import {getUsers, deleteUser, postUser} from './api/userApi';
 // import jsf from 'json-schema-faker';
 // import {schema} from '../buildScripts/mockDataSchema';
